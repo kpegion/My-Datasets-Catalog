@@ -2,7 +2,8 @@
 
 
 function foo() {
-  python3.6 /homes/nbehboud/COLA-DATASETS-CATALOG/generate_catalog.py $1 $2 $3 $4
+#  python3.6 /homes/nbehboud/COLA-DATASETS-CATALOG/generate_catalog.py $1 $2 $3 $4
+  python3.6 /homes/kpegion/pythondev/My-Datasets-Catalog/development-codes/generate_catalog.py $1 $2 $3 $4
   if [ $? -eq 0 ]
 	then
 	  echo "$2 Success"
